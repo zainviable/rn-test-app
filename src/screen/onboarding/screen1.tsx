@@ -26,7 +26,7 @@ function Screen1(): JSX.Element {
     setTimeout(() => {
       setOpenMic(false);
       setIsWellDone(true);
-    }, 1000);
+    }, 10000);
   }, [openMic]);
 
   const renderAudio = () => {
